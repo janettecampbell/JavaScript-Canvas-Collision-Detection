@@ -21,7 +21,7 @@ let circle2;
 
 const init = () => {
   circle1 = new Circle(300, 300, 100, "black");
-  circle2 = new Circle(undefined, undefined, 30, "red");
+  circle2 = new Circle(undefined, undefined, 30, "#ff5630");
 };
 
 // Event Listeners
@@ -78,9 +78,9 @@ const animate = () => {
     getDistance(circle1.x, circle1.y, circle2.x, circle2.y) <
     circle1.radius + circle2.radius
   ) {
-    circle1.color = "red";
+    circle1.color = "#ff5630";
   } else {
-    circle1.color = "black";
+    circle1.color = "#36b37e";
   }
 };
 
