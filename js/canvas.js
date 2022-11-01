@@ -10,7 +10,6 @@ const mouse = {
   y: innerHeight / 2,
 };
 
-const colors = ["#2185C5", "#7ECEFD", "#FFF6E5", "#FF7F66"];
 const gravity = 1;
 const friction = 0.95;
 let radius = randomIntFromRange(8, 20);
@@ -20,7 +19,7 @@ let circle2;
 // Implementation
 
 const init = () => {
-  circle1 = new Circle(300, 300, 100, "black");
+  circle1 = new Circle(300, 300, 100, "#36b37e");
   circle2 = new Circle(undefined, undefined, 30, "#ff5630");
 };
 
